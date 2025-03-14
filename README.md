@@ -27,3 +27,11 @@ sudo dpkg -i cuda-keyring_1.1-1_all.deb
 sudo apt update
 
 sudo apt-get -y install cuda-toolkit-12-8
+
+# How to check if the drivers and CUDA installed correctly
+
+open your terminal and enter the folling command:
+
+nvidia-smi
+
+If all went well you should see the status of your GPU and processes in the terminal.
