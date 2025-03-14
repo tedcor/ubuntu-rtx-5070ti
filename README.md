@@ -42,7 +42,7 @@ Install pipx
 
 sudo apt install pipx
 
-pipx install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
 
 
 # issues with running comfyui
@@ -59,3 +59,6 @@ https://download.pytorch.org/whl/nightly/cu128/torch/
 download this:
 
     torch-2.7.0.dev20250304+cu128-cp313-cp313-win_amd64.whl
+
+
+https://www.reddit.com/r/StableDiffusion/comments/1j3ix0m/runtimeerror_cuda_error_no_kernel_image_is/
