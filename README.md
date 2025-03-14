@@ -35,3 +35,11 @@ open your terminal and enter the folling command:
 nvidia-smi
 
 If all went well you should see the status of your GPU and processes in the terminal.
+
+# Installing Torch for use with 50** Blackwell GPU
+
+Install pipx
+
+sudo apt install pipx
+
+pipx install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
