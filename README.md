@@ -5,6 +5,17 @@ The instructions below will install the GPU drivers for Nvidia RTX 55** graphic 
 ### Adding graphics repository and installing driver
 I chose the 570-open driver as it seems to work better than the 570.
 ```
+sudo apt remove nvidia*
+sudo apt autoremove
+sudo reboot
+```
+```
+sudo apt update && sudo apt upgrade -y
+sudo add-apt-repository ppa:graphics-drivers/ppa -y
+sudo apt update
+sudo apt install nvidia-driver-570 -y
+sudo reboot
+```
 sudo add-apt-repository ppa:graphics-drivers/ppa
 
 sudo apt update 
