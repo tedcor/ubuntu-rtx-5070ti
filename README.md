@@ -18,11 +18,8 @@ sudo reboot
 ```
 ```
 sudo add-apt-repository ppa:graphics-drivers/ppa
-
 sudo apt update 
-
 sudo apt install nvidia-driver-570-open
-
 reboot
 ```
 ### Installing Cuda 12.8
@@ -34,11 +31,8 @@ https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&D
 Enter the commands below into your terminal
 ```
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-keyring_1.1-1_all.deb
-
 sudo dpkg -i cuda-keyring_1.1-1_all.deb
-
 sudo apt update
-
 sudo apt-get -y install cuda-toolkit-12-8
 ```
 ### How to check if the drivers and CUDA installed correctly
@@ -54,9 +48,7 @@ If all went well you should see the status of your GPU and processes in the term
 Install pipx
 ```
 sudo apt install pipx
-
 pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
-
 ```
 ### issues with running comfyui
 
