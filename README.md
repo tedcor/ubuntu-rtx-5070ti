@@ -3,7 +3,7 @@
 The instructions below will install the GPU drivers for Nvidia RTX 55** graphic cards from a fresh install of Ubuntu 24.04.
 
 ### Adding graphics repository and installing driver
-I chose the 570-open driver as it seems to work better than the 570.
+I chose the 570-open driver as it seems to work better than the 570. The 570 should have better performance.
 ```
 sudo apt remove nvidia*
 sudo apt autoremove
