@@ -2,7 +2,7 @@
 
 The instructions below will install the GPU drivers for Nvidia RTX 55** graphic cards from a fresh install of Ubuntu 24.04.
 
-# Adding graphics repository and installing driver
+### Adding graphics repository and installing driver
 ```
 sudo add-apt-repository ppa:graphics-drivers/ppa
 
@@ -12,7 +12,7 @@ sudo apt install nvidia-driver-570-open
 
 reboot
 ```
-# Installing Cuda 12.8
+### Installing Cuda 12.8
 
 Link to official Nvidia CUDA 12.8 install page
 
@@ -28,7 +28,7 @@ sudo apt update
 
 sudo apt-get -y install cuda-toolkit-12-8
 ```
-# How to check if the drivers and CUDA installed correctly
+### How to check if the drivers and CUDA installed correctly
 
 open your terminal and enter the folling command:
 ```
@@ -36,7 +36,7 @@ nvidia-smi
 ```
 If all went well you should see the status of your GPU and processes in the terminal.
 
-# Installing Torch for use with 50** Blackwell GPU
+### Installing Torch for use with 50** Blackwell GPU
 
 Install pipx
 ```
@@ -45,7 +45,7 @@ sudo apt install pipx
 pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
 
 ```
-# issues with running comfyui
+### issues with running comfyui
 
 uninstall pytorch
 ```
