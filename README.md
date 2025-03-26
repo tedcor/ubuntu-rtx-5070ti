@@ -16,6 +16,7 @@ sudo apt update
 sudo apt install nvidia-driver-570 -y
 sudo reboot
 ```
+```
 sudo add-apt-repository ppa:graphics-drivers/ppa
 
 sudo apt update 
