@@ -8,7 +8,7 @@ sudo add-apt-repository ppa:graphics-drivers/ppa
 
 sudo apt update 
 
-sudo apt install nvidia-driver-560
+sudo apt install nvidia-driver-570-open
 
 reboot
 
